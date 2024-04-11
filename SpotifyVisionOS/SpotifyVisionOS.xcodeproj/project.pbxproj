@@ -13,6 +13,8 @@
 		D778BA862BC817EF008C3F20 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA852BC817EF008C3F20 /* ImmersiveView.swift */; };
 		D778BA882BC817F1008C3F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D778BA872BC817F1008C3F20 /* Assets.xcassets */; };
 		D778BA8B2BC817F1008C3F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D778BA8A2BC817F1008C3F20 /* Preview Assets.xcassets */; };
+		D778BA942BC82051008C3F20 /* SpotifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA932BC82051008C3F20 /* SpotifyModel.swift */; };
+		D778BA972BC820E4008C3F20 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA962BC820E4008C3F20 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D778BA872BC817F1008C3F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D778BA8A2BC817F1008C3F20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D778BA8C2BC817F1008C3F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D778BA932BC82051008C3F20 /* SpotifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyModel.swift; sourceTree = "<group>"; };
+		D778BA962BC820E4008C3F20 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		D778BA7C2BC817EF008C3F20 /* SpotifyVisionOS */ = {
 			isa = PBXGroup;
 			children = (
+				D778BA952BC820D7008C3F20 /* ViewModel */,
+				D778BA922BC82037008C3F20 /* Model */,
 				D778BA812BC817EF008C3F20 /* SpotifyVisionOSApp.swift */,
 				D778BA832BC817EF008C3F20 /* ContentView.swift */,
 				D778BA852BC817EF008C3F20 /* ImmersiveView.swift */,
@@ -82,6 +88,22 @@
 				D778BA8A2BC817F1008C3F20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D778BA922BC82037008C3F20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D778BA932BC82051008C3F20 /* SpotifyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D778BA952BC820D7008C3F20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D778BA962BC820E4008C3F20 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D778BA942BC82051008C3F20 /* SpotifyModel.swift in Sources */,
 				D778BA842BC817EF008C3F20 /* ContentView.swift in Sources */,
 				D778BA822BC817EF008C3F20 /* SpotifyVisionOSApp.swift in Sources */,
+				D778BA972BC820E4008C3F20 /* HomeViewModel.swift in Sources */,
 				D778BA862BC817EF008C3F20 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
